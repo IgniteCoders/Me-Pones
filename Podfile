@@ -6,5 +6,6 @@ target 'Me Pones' do
   use_frameworks!
 
   # Pods for Me Pones
+  pod 'FirebaseAnalytics'
 
 end
