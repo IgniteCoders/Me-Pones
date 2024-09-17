@@ -8,5 +8,6 @@ target 'Me Pones' do
   # Pods for Me Pones
   pod 'FirebaseAnalytics'
   pod 'FirebaseAuth'
+  pod 'GoogleSignIn'
 
 end
