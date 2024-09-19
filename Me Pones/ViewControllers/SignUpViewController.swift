@@ -29,9 +29,13 @@ class SignUpViewController: UIViewController {
             if let error = error {
                 print("Error al crear usuario")
                 print(error.localizedDescription)
+                self.showToast(message: error.localizedDescription, seconds: 3)
                 return
             } else {
                 print("Registro correcto")
+                self.backToLogin(self)
+                self.showToast(message: "Registro correcto", seconds: 3)
+                print("Se ejecutó esta linea")
             }
         }
     }
