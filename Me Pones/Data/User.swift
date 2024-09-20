@@ -12,5 +12,5 @@ struct User: Codable {
     var id: String
     var username: String
     var biography: String
-    
+    var profileImageUrl: String?
 }

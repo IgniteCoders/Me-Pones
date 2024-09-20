@@ -10,5 +10,6 @@ target 'Me Pones' do
   pod 'FirebaseAuth'
   pod 'GoogleSignIn'
   pod 'FirebaseFirestore'
+  pod 'FirebaseStorage'
 
 end
