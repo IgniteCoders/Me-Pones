@@ -16,7 +16,6 @@ class ProfileViewController: UITableViewController,
     
     @IBOutlet weak var biographyTextView: UITextView!
     @IBOutlet weak var profileImageView: UIImageView!
-    @IBOutlet weak var otherImageView: UIImageView!
     
     var user: User?
     
